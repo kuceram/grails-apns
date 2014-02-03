@@ -37,6 +37,9 @@ grails.project.dependency.resolution = {
         //		runtime 'org.apache.mina:mina-core:2.0.0-RC1'
         //      compile 'org.codehaus.jackson:jackson-mapper-asl:1.4.0'
 
+        // delete jar dependency, do not cover because we have a newer dependency in tado grails app
+//        compile 'org.codehaus.jackson:jackson-core-asl:1.4.0'
+//        compile 'org.codehaus.jackson:jackson-mapper-asl:1.4.0'
         compile 'com.notnoop.apns:apns:0.2.3'
     }
 
